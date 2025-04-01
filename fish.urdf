@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="flexible_fish">
 
-  <!-- 头部 -->
+  <!-- head -->
   <link name="head">
     <visual>
       <geometry>
@@ -18,7 +18,7 @@
     </collision>
   </link>
 
-  <!-- 身体 -->
+  <!-- body -->
   <link name="body">
     <visual>
       <geometry>
@@ -35,7 +35,7 @@
     </collision>
   </link>
 
-  <!-- 尾部 -->
+  <!-- tail -->
   <link name="tail">
     <visual>
       <geometry>
@@ -52,9 +52,9 @@
     </collision>
   </link>
 
-  <!-- 关节连接 -->
+  <!-- joint connection -->
 
-  <!-- 头部和身体之间的关节 -->
+  <!-- joint between head and body -->
   <joint name="head_to_body" type="revolute">
     <parent link="head"/>
     <child link="body"/>
@@ -63,7 +63,7 @@
     <limit lower="-1.57" upper="1.57" effort="1" velocity="1"/>
   </joint>
 
-  <!-- 身体和尾部之间的关节 -->
+  <!-- joint between body and tail -->
   <joint name="body_to_tail" type="revolute">
     <parent link="body"/>
     <child link="tail"/>
