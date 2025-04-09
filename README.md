@@ -49,3 +49,11 @@ python generate_2.py
 python generate_3.py
 python generate_4.py
 ```
+
+## Results display
+![WhatsApp Image 2025-04-08 at 01 17 59](https://github.com/user-attachments/assets/32d736f1-7325-4a0b-9a6a-91be223eaba3)
+
+![WhatsApp Image 2025-04-08 at 01 17 45](https://github.com/user-attachments/assets/6d248a13-3ff5-411a-b23e-e1c973d47467)
+
+
+
