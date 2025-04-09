@@ -1,17 +1,10 @@
-# COMP0243-fish
-soft robotic fish
+# COMP0243-soft robotic
 
-# 🐟 Fish Simulation in PyBullet
+# Fish Simulation in PyBullet
 
 This project simulates the movement of a fish in a virtual aquatic environment using the [PyBullet](https://github.com/bulletphysics/bullet3) physics engine. It evaluates propulsion behavior, tail swing dynamics, water resistance forces, and trajectory stability in a controlled simulation environment.
 
-fish-simulation/
-├── fish_simulation.py        # Main simulation script
-├── requirements.txt          # Dependencies list
-└── README.md                 # Project description
-
-
-## 📂 Project Features
+## Project Features
 
 - 3D fish model loaded via URDF
 - Simulation of water flow using external forces
@@ -20,21 +13,31 @@ fish-simulation/
 - Real-time head angle correction and propulsion control
 - Energy consumption tracking and trajectory deviation analysis
 
-## 📦 Requirements
+## Requirements
 
 This project requires the following Python packages:
 
-```txt
+```plaintext
 pybullet>=3.2.5
 numpy>=1.21.0
-
+```
 
 You can install them using:
+```plaintext
 pip install -r requirements.txt
+```
 
 ## How to run
-git clone https://github.com/your_username/fish-simulation.git
-cd fish-simulation
+```plaintext
+git clone https://github.com/Ney1Peter/COMP0243-fish.git
+```
 
-### Run the simulation script:
+Run the simulation script:
+```plaintext
 python load_fish.py
+```
+
+Run the adaptive ststem:
+```plaintext
+python adaptive.py
+```
