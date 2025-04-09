@@ -41,3 +41,11 @@ Run the adaptive ststem:
 ```plaintext
 python adaptive.py
 ```
+
+Run the evaluation script:
+```plaintext
+python generate_1.py
+python generate_2.py
+python generate_3.py
+python generate_4.py
+```
